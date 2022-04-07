@@ -1,0 +1,1 @@
+'Solution: The rain in Spain falls mainly in the mountains, not plains.\n\nKey: AE\nPath Cost: 1\n\nNum nodes expanded: 3\nMax fringe size: 5\nMax depth: 1\n\nFirst few expanded states:\nTha rein in Spein fells meinly in tha mounteins, not pleins.\n\nThd rein in Spein fells meinly in thd mounteins, not pleins.\n\nThe rain in Spain falls mainly in the mountains, not plains.'

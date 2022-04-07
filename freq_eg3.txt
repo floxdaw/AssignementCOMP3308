@@ -1,0 +1,23 @@
+Many people say that life isn't like a bed of roses. I beg to differ. I think that life is quite like a bed of roses. Just like life, a bed of roses looks pretty on the outside, but when you're in it, you find that it is nothing but thorns and pain. I myself have been pricked quite badly.
+She wanted rainbow hair. That's what she told the hairdresser. It should be deep rainbow colors, too. She wasn't interested in pastel rainbow hair. She wanted it deep and vibrant so there was no doubt that she had done this on purpose.
+A long black shadow slid across the pavement near their feet and the five Venusians, very much startled, looked overhead. They were barely in time to see the huge gray form of the carnivore before it vanished behind a sign atop a nearby building which bore the mystifying information "Pepsi-Cola."
+
+max_depth = clnr.find_max_depth(final_graph)
+
+        key_string = "Key: {}".format((final_graph[len(final_graph)].key.replace(' ', '')).upper())
+        path_cost_string = "Path Cost: {}".format(final_graph[len(final_graph)].path_cost)
+        num_nodes_string = "Num nodes expanded: {}".format(len(final_graph))
+        max_fringe_string = 'Max fringe size: {}'.format(max_fringe)
+        max_depth_string = 'Max depth: {}'.format(max_depth)
+
+        solution = False
+        for key in final_graph:
+            if final_graph[key].goal:
+                solution = True
+
+        if solution:
+            solution_string = 'Solution: {}'.format(clnr.recapitalise(positions, final_graph[len(final_graph)].parent))
+        else:
+            solution_string = 'No solution found.'
+
+        final_string = solution_string + '\n\n' + key_string + '\n' + path_cost_string + '\n\n' + num_nodes_string + '\n' + max_fringe_string + '\n' + max_depth_string + '\n'
